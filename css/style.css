@@ -40,14 +40,17 @@ li {
 
 .left {
   float: left;
+  width: 200px;
 }
 
 .right {
   float: right;
+  width: 200px;
 }
 
 .foto {
   float: right;
+  width: 200px;
 }
 .clear {
   clear: right;
@@ -55,6 +58,7 @@ li {
 
 .none {
   float: left;
+  width: 200px;
 }
 
 .both {

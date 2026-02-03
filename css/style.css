@@ -1,0 +1,117 @@
+.conteiner {
+  background-color: #ccc;
+
+  margin: 20px;
+}
+
+span {
+  border: 2px solid yellow;
+}
+text {
+  margin: 10px;
+}
+
+p {
+  margin: 20px 20px;
+  padding: 5px 5px;
+}
+.result {
+  border: 3px solid red;
+}
+
+li {
+  display: inline;
+}
+.text-two {
+  width: 100px;
+  padding: 5px;
+  margin: 20px;
+  box-sizing: content-box;
+  border: 2px solid blue;
+}
+
+.text-three {
+  width: 100px;
+  padding: 5px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 2px solid blue;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.foto {
+  float: right;
+}
+.clear {
+  clear: right;
+}
+
+.none {
+  float: left;
+}
+
+.both {
+  clear: both;
+}
+
+.conteiner-over {
+  max-width: 800px;
+  height: 300px;
+  background-color: red;
+  margin: 20px;
+  overflow: scroll;
+}
+.scrol {
+  width: 1000px;
+}
+
+.container {
+  max-width: 700px;
+  background-color: blueviolet;
+  margin: 50px;
+  overflow: hidden;
+}
+
+.hidden {
+  width: 900px;
+}
+
+.father-position {
+  position: relative;
+  border: 2px solid black;
+  background-color: red;
+  padding: 20px;
+  top: -50px;
+  left: 50px;
+}
+
+.children-position {
+  background-color: yellow;
+  position: absolute;
+  padding: 5px;
+  top: 0;
+  right: 0;
+}
+
+.fixed {
+  position: fixed;
+  background-color: orange;
+  padding: 50px;
+  top: 100;
+  right: 100;
+}
+.sticky {
+  position: sticky;
+  padding: 50px;
+  top: 0;
+  left: 50;
+  background-color: aquamarine;
+}
+
